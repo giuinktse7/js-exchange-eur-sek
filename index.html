@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <div class="content">
+      <h1>Mamma euro</h1>
+      <div>
+        <input id="from-date" type="date" />
+        <input id="to-date" type="date" />
+        <!-- Add your site or application content here -->
+        <button id="exchange-button">Calculate</button>
+      </div>
+
+      <table id="output-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th class="th-right">EUR in SEK</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+
+    <script src="main.js" async></script>
+  </body>
+</html>

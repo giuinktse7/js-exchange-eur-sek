@@ -1,0 +1,40 @@
+body {
+  padding-top: 5rem;
+  max-width: 1024px;
+  margin: auto;
+}
+.content {
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 300px;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+table {
+  padding: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  min-width: 300px;
+}
+th {
+  text-align: left;
+}
+
+.th-right {
+  text-align: end;
+}
+
+th,
+td {
+  padding-right: 0.5rem;
+}
+
+.value-cell {
+  text-align: end;
+}

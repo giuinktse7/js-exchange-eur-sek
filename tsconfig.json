@@ -1,0 +1,8 @@
+{
+  "version": "2.13.0",
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "classic"
+  },
+  "exclude": ["node_modules"]
+}
